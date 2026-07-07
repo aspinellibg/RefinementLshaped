@@ -9,7 +9,9 @@ Specifically, the repository contains the following files and folders:
 - File "model_stoch_network_design.py": Python implementation of the proposed methods, including the disjoint partition approach, the fixed-scenario partition approach, and the iterative refinement algorithm.
 - File "MRSNDP_run.py": main script used to run the computational experiments.
 
-For example, consider the network instance r04.1 with 256 scenarios.
+**Usage**
+
+Consider the network instance r04.1 with 256 scenarios.
 
 - To solve the Benders master problem at a fixed refinement level using disjoint groups of S scenarios each, run:
 
