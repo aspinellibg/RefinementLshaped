@@ -1,12 +1,14 @@
 **Description**
 
-The code provided in this repository accompanies the paper "_A novel L-shaped refinement chain cuts method for two-stage stochastic programs_" (see the reference below).
+This repository contains the implementation of the methods proposed in the paper "_A novel L-shaped refinement chain cuts method for two-stage stochastic programs_" (see the reference below).
+
+The repository contains the Python implementation of the proposed methods for solving a two-stage stochastic multi-commodity network design problem used in the computational experiments, including the disjoint partition approach, the fixed-scenario partition approach, and the iterative refinement algorithm.
 
 Specifically, the repository contains the following files and folders:
 
 - Folder "scens": contains the scenario files.
 - Folder "network": contains the network instances.
-- File "SMNDP_model": Python implementation of the proposed methods to solve a two-stage stochastic multi-commodity network design problem, including the disjoint partition approach, the fixed-scenario partition approach, and the iterative refinement algorithm.
+- File "SMNDP_model.py": Python implementation of the optimization models and solution methods.
 - File "SMNDP_run.py": main script used to run the computational experiments.
 
 **Usage**
